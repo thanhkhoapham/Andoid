@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <CheckBox
+        android:id="@+id/chkLTC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lap trinh C" />
+
+    <CheckBox
+        android:id="@+id/chkTDD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Di Dong" />
+
+    <Button
+        android:id="@+id/btnDk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dang ky" />
+
+    <RadioGroup
+        android:id="@+id/rdGroup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioButton
+            android:id="@+id/rdNam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nam" />
+
+        <RadioButton
+            android:id="@+id/rdNu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nữ" />
+
+        <TextView
+            android:id="@+id/txtTime"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="10"/>
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:thumb="@android:drawable/button_onoff_indicator_on" />
+    </RadioGroup>
+</LinearLayout>
